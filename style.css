@@ -1,0 +1,39 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+
+/*
+style="display: flex; 
+  flex-direction: column; flex-wrap:wrap;
+*/
+nav{width: 70%;}
+
+.menu-principal a{
+    font-weight: bolder;
+    text-decoration: none; color: black;
+}
+
+.menu-principal li {
+    display: inline-block;
+    padding: 2%;
+}
+
+.menu-principal li :hover{
+    color: blue;
+    transition: 0.5s;
+}
+
+.n24g{
+    padding: 1%;
+
+}
