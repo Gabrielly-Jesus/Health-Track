@@ -6,22 +6,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <title>Projeto NG24</title>
+    <title>Health Track</title>
+   
 </head>
 <body>
-    <header class="menu-principal">
-        <h2 class="n24g">N24G</h2>
-        <nav>
-            <ul>
-               <li><a href="#">INÍCIO</a></li>  
-               <li><a href="#">SOBRE</a></li>
-               <li><a href="#">DISCORD</a></li>
-               <li><a href="#">PROJETOS</a></li>
-               <li><a href="#">CONTATOS</a></li>
+    <header>
+      <div class="topo">
+        <!-- Logo e menu de navagação -->
+          <img src="img/saude (2).png" alt="" class="">
+
+        <nav class="">
+            <ul class="">
+                <li class="fixo"><a href="#" >Home </a></li>
+                <li ><a href="peso.html" class="">Peso</a></li>
+                <li ><a href="#" class="">Atividade</a></li>
+                <li ><a href="#" class="">Alimentação</a></li>
+                <li ><a href="#" class="">Consultas</a></li> 
             </ul>
         </nav>
+
+         <ul class="usuario">
+            <li><h5>Welcome, Gabrielly</h5></li>
+            <li><a href="welcome.html">Sair</a></li>
+         </ul>
+      </div>
     </header>
-    
-</body>
+
+    <main>
+        <section >
+         
+            <ul class="principal">
+            
+               <li class="mini-card">
+                <h3 class="destaque">Sua Saúde</h3>
+                 <div class="agrupar">
+                    <img src="img/medico.png" alt="" class="">
+                    <h4 class=""><a href="">Faça o teste</a></h4> 
+                 </div>
+                <span><strong>Descubra quantos pontos de saúde você têm</strong>
+                
+                <br>Elaboramos um quiz que vai te ajudar a descobrir como anda a sua saúde ;) </span></li>
+               
+               <li class="mini-card calendario" >
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Posição</th>
+                      <th scope="col">Ranking</th>
+                      <th scope="col">Status</th>
+                      <th scope="col">Pontos</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1° Lugar</th>
+                      <td>Mark</td>
+                      <td>Ativo</td>
+                      <td>230</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2° Lugar</th>
+                      <td>Jacob</td>
+                      <td>Em forma</td>
+                      <td>202</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3° Lugar</th>
+                      <td>Larry</td>
+                      <td>Sedentário</td>
+                      <td>180</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4° Lugar</th>
+                      <td>Jony</td>
+                      <td>Sedentário</td>
+                      <td>140</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5° Lugar</th>
+                      <td>Sonia</td>
+                      <td>Em forma</td>
+                      <td>110</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </li>
+             
+            </ul>
+        </section>
+    </main>
+  </body>
 </html>
